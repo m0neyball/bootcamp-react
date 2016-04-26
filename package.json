@@ -25,8 +25,15 @@
     "eslint": "^2.8.0",
     "eslint-config-airbnb-base": "^1.0.4",
     "eslint-plugin-import": "^1.6.0",
+    "eslint-plugin-react": "^5.0.1",
+    "history": "^2.1.0",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
+    "react-router": "^2.3.0",
     "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "serve-static": "^1.10.2"
   }
 }
