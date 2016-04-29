@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --progress --colors",
-    "build:watch": "npm run build -- --watch"
+    "build:watch": "npm run build -- --watch",
+    "lint": "eslint --ext .jsx src"
   },
   "repository": {
     "type": "git",
