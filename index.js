@@ -4,7 +4,7 @@ const serveStatic = require('serve-static');
 
 app.use(serveStatic(__dirname + '/dist'));
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(__dirname + '/src/index.html');
 });
 
